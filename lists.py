@@ -77,7 +77,7 @@ for i in range(1, factor+1):
         print(i) """
 
 
-""" def gcf(x,y):
+def gcf(x,y):
     if x > y:
         smaller = y
     else:
@@ -90,9 +90,9 @@ for i in range(1, factor+1):
 factor1 = int(input("type a number: "))
 factor2 = int(input("type a number: "))
 
-print("Greatest Common Factor: ", gcf(factor1, factor2)) """
+print("Greatest Common Factor: ", gcf(factor1, factor2))
 
-hunger = int(input("total hunger points: "))
+""" hunger = int(input("total hunger points: "))
 x = int(input("apples eaten: "))
 y = int(input("seconds passed: "))
 
@@ -103,4 +103,4 @@ endinghunger = int(x-y)
 if endinghunger < 0:
     endinghunger = 0
 
-print((endinghunger), "hunger points left")
+print((endinghunger), "hunger points left") """
